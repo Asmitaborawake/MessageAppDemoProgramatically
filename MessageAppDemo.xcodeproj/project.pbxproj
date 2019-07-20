@@ -12,6 +12,7 @@
 		CEF07F5E22E09C430039A928 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF07F5C22E09C430039A928 /* Main.storyboard */; };
 		CEF07F6022E09C430039A928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF07F5F22E09C430039A928 /* Assets.xcassets */; };
 		CEF07F6322E09C430039A928 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF07F6122E09C430039A928 /* LaunchScreen.storyboard */; };
+		CEF07F6B22E09E870039A928 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF07F6A22E09E870039A928 /* ChatMessageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CEF07F5F22E09C430039A928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEF07F6222E09C430039A928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEF07F6422E09C430039A928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF07F6A22E09E870039A928 /* ChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				CEF07F5822E09C420039A928 /* AppDelegate.swift */,
 				CEF07F5A22E09C430039A928 /* ViewController.swift */,
+				CEF07F6A22E09E870039A928 /* ChatMessageCell.swift */,
 				CEF07F5C22E09C430039A928 /* Main.storyboard */,
 				CEF07F5F22E09C430039A928 /* Assets.xcassets */,
 				CEF07F6122E09C430039A928 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF07F6B22E09E870039A928 /* ChatMessageCell.swift in Sources */,
 				CEF07F5B22E09C430039A928 /* ViewController.swift in Sources */,
 				CEF07F5922E09C420039A928 /* AppDelegate.swift in Sources */,
 			);
